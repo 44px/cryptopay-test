@@ -1,0 +1,14 @@
+<div class="films-list">
+    <input class="films-list__query"
+           type="text"
+           placeholder="Type to search..."
+           ng-model="$ctrl.query"
+           ng-change="$ctrl.filterData($ctrl.query)"
+    />
+
+    <div class="films-list__list">
+        <film ng-repeat="item in $ctrl.filteredList"
+              data="item">
+        </film>
+    </div>
+</div>
