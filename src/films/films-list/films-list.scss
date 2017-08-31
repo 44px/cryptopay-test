@@ -1,10 +1,12 @@
+@import '../../core/variables';
+
 .films-list {
   &__query {
     display: block;
     width: 100%;
     padding: 4px 8px;
     font-size: 14px;
-    border: 1px solid #CCC;
+    border: 1px solid $color-neutral;
     border-radius: 3px;
   }
 }

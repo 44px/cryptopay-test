@@ -1,7 +1,9 @@
+@import '../../core/variables';
+
 .film {
   margin: 16px 0;
   padding: 8px 8px;
-  border: 1px solid #CCC;
+  border: 1px solid $color-neutral;
 
   &__tile {
     font-size: 16px;
